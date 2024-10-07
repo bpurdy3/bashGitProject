@@ -27,11 +27,11 @@ jobs:
     needs: build
     env:
       user: Steven Universe
-  steps:
-    - name: Inform Steven
-      run: |
-        echo "Hello $user, this job is about to end."
-        echo "Job has ended."
+    steps:
+      - name: Inform Steven
+        run: |
+          echo "Hello $user, this job is about to end."
+          echo "Job has ended."
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
